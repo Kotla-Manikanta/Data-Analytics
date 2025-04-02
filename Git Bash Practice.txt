@@ -1,0 +1,250 @@
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~
+$ ls
+ 360/
+ 360.py
+'3D Objects'/
+ AndroidStudioProjects/
+ AppData/
+'Application Data'@
+ Ar/
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PRJCT/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Videos/
+'anaconda 520'/
+ anaconda3/
+ battery-report.html
+ eclipse/
+ eclipse-workspace/
+ java_error_in_studio64.hprof
+ main.py
+ node_modules/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ package.json
+ requirements.txt
+ untitled0.py
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~
+$ pwd
+/c/Users/kotla
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~
+$ mkdir test
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~
+$ ls
+ 360/
+ 360.py
+'3D Objects'/
+ AndroidStudioProjects/
+ AppData/
+'Application Data'@
+ Ar/
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PRJCT/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Videos/
+'anaconda 520'/
+ anaconda3/
+ battery-report.html
+ eclipse/
+ eclipse-workspace/
+ java_error_in_studio64.hprof
+ main.py
+ node_modules/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ package.json
+ requirements.txt
+ test/
+ untitled0.py
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~
+$ cd test
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ pwd
+/c/Users/kotla/test
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ mkdir testing
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ pwd
+/c/Users/kotla/test
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ls
+testing/
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ rmdir testing
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ls
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cp file.txt file2.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ls
+file.txt  file2.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ mv file2.txt file3.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ls
+file.txt  file3.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ rm file3.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ls
+file.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ uname
+MINGW64_NT-10.0-26100
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ touch sample.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ls
+file.txt  sample.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cat file.txt
+Hello
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      496     495     496      17308  pty0      197609 11:34:53 /usr/bin/bash
+      495       1     495      23268  ?         197609 11:34:53 /usr/bin/mintty
+      596     496     596      20636  pty0      197609 11:52:00 /usr/bin/ps
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cat file.txt | grep "llo"
+Hello
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ ^C
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cat file.txt | grep "vatu"
+Revature
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ echo "mani"
+mani
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cat file.txt | grep "VATU"
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ whoami
+kotla
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cat file.txt
+Hello
+
+Revature
+
+Ambition
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ sort file.txt
+
+
+Ambition
+Hello
+Revature
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G  166G   72G  70% /
+D:                    444G   17G  427G   4% /d
+E:                    489G  113M  489G   1% /e
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ echo -"This is new line">sample.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ cat sample.txt
+-This is new line
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ wc -m sample.txt
+18 sample.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ wc -l sample.txt
+1 sample.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$ wc -w sample.txt
+4 sample.txt
+
+kotla@LAPTOP-03AFVD0V MINGW64 ~/test
+$
