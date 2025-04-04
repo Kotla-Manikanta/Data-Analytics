@@ -38,7 +38,43 @@
 # fruits=array.array('u',"apple banana")
 # print(fruits[0])
 
-import array 
-fruits=array.array('i',[1,2,3,4,5])
-length=len(fruits)
-print(length)
+# import array 
+# fruits=array.array('i',[1,2,3,4,5])
+# length=len(fruits)
+# print(length)
+
+# lambda functions
+# s1='Hello world'
+# s2=lambda func:func.upper()
+# print(s2(s1))
+# n=lambda x:'positive' if x>0 else 'negative' if x<0 else 'zero'
+# print(n(-4))
+# print(n(5))
+# print(n(0))
+# sq=lambda x:x*x
+# print(sq(5))
+# l1=[lambda arg=x:arg * 10 for x in range(1,5)]
+# for i in l1:
+#     print(i())
+# lambda with multiple arguments
+cal=lambda x,y:(x+y,x*y,x-y)
+res=cal(10,5)
+print(res)
+# filter
+n=[1,2,3,4,5]
+even=filter(lambda x: x%2==0,n)
+print(list(even))
+#map
+n=[1,2,3,4,5]
+sq=map(lambda x: x*2,n)    # Iterate through collection and apply transformation
+print(list(sq))
+#reduce
+from functools import reduce
+n=[1,2,3,4,5]
+b=reduce(lambda x,y:x*y,n)
+print(b)
+#fstring
+a=10
+print(f'she is {a} years old')
+b='she is {} years old'.format(a)
+print(b)
