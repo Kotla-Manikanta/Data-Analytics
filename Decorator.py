@@ -10,3 +10,4 @@ def decorator(func):
 def greet():
     print('hello')
 greet()
+
