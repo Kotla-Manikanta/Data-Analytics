@@ -32,5 +32,5 @@ df=pd.DataFrame(data)
 # df.rename(columns={'age':'years'},inplace=True)
 # print(df)
 
-df.drop('city',axis=1,inplace=True)
-print(df)
+# df.drop('city',axis=1,inplace=True)
+# print(df)
