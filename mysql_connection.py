@@ -1,8 +1,12 @@
-import mysql.connector
+import mysql.connector 
 
-myDB=mysql.connector.connect(
+conn=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="123456789"
+    password="123456789",
+    database="newdb"
 )
-print(myDB)
+print(conn)
+
+cursor = conn.cursor()
+
